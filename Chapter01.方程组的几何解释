@@ -1,0 +1,24 @@
+ “求解线性方程组”
+ 1. row pictures
+ 2*. column pictures
+ 3. matrix form
+ 
+ 1. row pictures
+      空间几何，作图找交点
+ 2. column pictures
+      列向量的线性组合，得到一个新向量
+ 3. matrix form
+      Ax=b
+ 
+ Q. 对任意b，能否求解Ax=b？*（用column pictures考虑）
+ 即：Q. 列的线性组合能否覆盖整个三维空间？
+    （如果2个列向量平行，or两个线性方程成比例，即如果有一个列没用）
+    Yes           No
+    非奇异       奇异
+    可逆         非可逆
+    
+Q. 矩阵相乘Ax=b的两种方法
+   1. a combonation of columns(prefer this*)
+    [2 5] [1]——> [2]  [5] [12]
+    [1 3] [2]——>1[1]+2[3]=[7]
+   2. 点乘公式
